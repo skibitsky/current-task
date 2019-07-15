@@ -32,6 +32,7 @@ Allows to insert Current Task and apply filters to it.
 
 ## Siri Shortcuts
 I am looking for the best use-case here. The fact that Current Task is stored in Siri Shortcuts folder means that Current Task can be accessed by any shortcut using `Get File` action:
+
 ![Get File](https://github.com/skibitsky/current-task/raw/master/images/IMG_8A9D0B69DB53-1.jpeg)
 
 ---
