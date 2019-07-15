@@ -5,18 +5,25 @@ The task is created using Alfred workflow, which enables Focus app for 25 minute
 
 When I finish working on the task I just press on it on the Touch Bar. BTT action clears the file, disables Focus and marks Timing task as completed. The is also a "stop task" action in the Workflow.
 
-Since the Current Task is stored in a simple file, any app can easily access it. There is a Keyboard Maestro macro!! that opens a palette with a different Current Task filtering options. I.e. you can insert Current Task in a line-separated-style which is very handy when creating new features in git flow!!.
+Since the Current Task is stored in a simple file, any app can easily access it. There is a Keyboard Maestro macro
+that opens a palette with a different Current Task filtering options. I.e. you can insert Current Task in a line-separated-style which is very handy when creating new features in  [git flow](https://github.com/petervanderdoes/gitflow-avh).
 
 Below you will find a list of all integrations I've made so far. I will be adding more integrations over time.
 
 ## Alfred Workflow
  [Download workflow](https://github.com/skibitsky/current-task/raw/master/alfred-workflow/current-task-v1.0.alfredworkflow)
-
-The workflow allows to create and close tasks. Creation is possible by  calling workflow directly (I use Karabiner Elements and Goku for that, my config can be found here!!) or by selecting the text anywhere (i.e. inside task tracking app or GitHub issue) and using hotkey. 
+ 
+![Alfred workflow](https://github.com/skibitsky/current-task/raw/master/images/Screenshot%202019-07-15%20at%2016.38.06.png)
+The workflow allows to create and close tasks. Creation is possible by  calling workflow directly (I use Karabiner Elements and Goku for that, my config can be found  [here](https://github.com/skibitsky/dotfiles)) or by selecting the text anywhere (i.e. inside task tracking app or GitHub issue) and using hotkey. 
 
 ## BetterTouchTool
-Shows Current Task on MacBook's Touch Bar. 
-Setup instruction can be found here.
+Shows Current Task on MacBook's Touch Bar.
+
+This is how my Touch Bar looks like with the active Current Task on the left:
+
+![My Touch Bar](https://github.com/skibitsky/current-task/raw/master/images/Touch%20Bar%20Shot%202019-07-15%20at%2016.08.32.png)
+
+Setup instruction can be found [here](https://github.com/skibitsky/current-task/tree/master/btt).
 
 ## Keyboard Maestro
  [Download macro group](https://raw.githubusercontent.com/skibitsky/current-task/master/keyboard-maestro/current-task-macros.kmmacros)
@@ -24,7 +31,8 @@ Setup instruction can be found here.
 Allows to insert Current Task and apply filters to it.
 
 ## Siri Shortcuts
-I am looking for the best use-case here. The fact that Current Task is stored in Siri Shortcuts folder means that Current Task can be accessed by any shortcut using Get File action!! 
+I am looking for the best use-case here. The fact that Current Task is stored in Siri Shortcuts folder means that Current Task can be accessed by any shortcut using `Get File` action:
+![Get File](https://github.com/skibitsky/current-task/raw/master/images/IMG_8A9D0B69DB53-1.jpeg)
 
 ---
 Inspired by  [nikitavoloboev](https://github.com/nikitavoloboev)'s [TODO Task](https://github.com/nikitavoloboev/small-workflows/tree/master/todo-task#readme) workflow.
