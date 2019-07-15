@@ -1,5 +1,5 @@
 # Current Task
-Current Task is a small utility I use to focus on one task. It relies on Alfred, KeyboardMaestro, BetterTouchTool (BTT), Timing and Focus apps. It stores the current task I am working on in iCloud's Siri Shortcuts folder that I could access it on all my macOS and iOS devices.
+Current Task is a small utility I use to focus on one task at a time. It relies on Alfred, KeyboardMaestro, BetterTouchTool (BTT), Timing and Focus apps. It stores the current task I am working on in iCloud's Siri Shortcuts folder that I could access it on all my macOS and iOS devices.
 
 The task is created using Alfred workflow, which enables Focus app for 25 minutes (Pomodoro) to block distractions, and opens the Timing Menu to confirm the task. BTT reads the file and shows the Current Task on Touch Bar. 
 
