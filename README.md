@@ -14,7 +14,7 @@ Below you will find a list of all integrations I've made so far. I will be addin
  [Download workflow](https://github.com/skibitsky/current-task/raw/master/alfred-workflow/current-task-v1.0.alfredworkflow)
  
 ![Alfred workflow](https://github.com/skibitsky/current-task/raw/master/images/Screenshot%202019-07-15%20at%2016.38.06.png)
-The workflow allows to create and close tasks. Creation is possible by  calling workflow directly (I use Karabiner Elements and Goku for that, my config can be found  [here](https://github.com/skibitsky/dotfiles)) or by selecting the text anywhere (i.e. inside task tracking app or GitHub issue) and using hotkey. 
+The workflow allows to create and close tasks. Creation is possible by  calling workflow directly (I use Karabiner Elements and Goku for that, my config can be found  [here](https://github.com/skibitsky/dotfiles/blob/master/karabiner/karabiner.edn)) or by selecting the text anywhere (i.e. inside task tracking app or GitHub issue) and using hotkey. 
 
 ## BetterTouchTool
 Shows Current Task on MacBook's Touch Bar.
