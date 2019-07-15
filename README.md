@@ -1,4 +1,4 @@
-# Current Task
+# Current Task <img src="/images/current-task-logo.png" width="30"> 
 Current Task is a small utility I use to focus on one task at a time. It relies on Alfred, KeyboardMaestro, BetterTouchTool (BTT), Timing and Focus apps. It stores the current task I am working on in iCloud's Siri Shortcuts folder that I could access it on all my macOS and iOS devices.
 
 The task is created using Alfred workflow, which enables Focus app for 25 minutes (Pomodoro) to block distractions, and opens the Timing Menu to confirm the task. BTT reads the file and shows the Current Task on Touch Bar. 
@@ -33,7 +33,7 @@ Allows to insert Current Task and apply filters to it.
 ## Siri Shortcuts
 I am looking for the best use-case here. The fact that Current Task is stored in Siri Shortcuts folder means that Current Task can be accessed by any shortcut using `Get File` action:
 
-![Get File](https://github.com/skibitsky/current-task/raw/master/images/IMG_8A9D0B69DB53-1.jpeg)
+<img src="images/IMG_8A9D0B69DB53-1.jpeg" width="414" height="284"> 
 
 ---
 Inspired by  [nikitavoloboev](https://github.com/nikitavoloboev)'s [TODO Task](https://github.com/nikitavoloboev/small-workflows/tree/master/todo-task#readme) workflow.
