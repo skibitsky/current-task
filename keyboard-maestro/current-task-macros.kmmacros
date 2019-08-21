@@ -19,94 +19,48 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>DisplayKind</key>
-						<string>Typing</string>
-						<key>IncludeStdErr</key>
-						<false/>
 						<key>MacroActionType</key>
-						<string>ExecuteShellScript</string>
-						<key>Path</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4FAgAAKwAAAAEA
+						AAD9AQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNjcx
+						XGNvY29hc3VicnRmNjAwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O1xyZWQwXGdyZWVu
+						MFxibHVlMDt9CntcKlxleHBhbmRl
+						ZGNvbG9ydGJsOztcY3NzcmdiXGMw
+						XGMwXGMwXGM4NDcwNlxjbmFtZSBj
+						b250cm9sVGV4dENvbG9yO30KXHBh
+						cmRcdHg1NjBcdHgxMTIwXHR4MTY4
+						MFx0eDIyNDBcdHgyODAwXHR4MzM2
+						MFx0eDM5MjBcdHg0NDgwXHR4NTA0
+						MFx0eDU2MDBcdHg2MTYwXHR4Njcy
+						MFxwYXJkaXJuYXR1cmFsXHBhcnRp
+						Z2h0ZW5mYWN0b3IwCgpcZjBcZnMy
+						NiBcY2YyIElmIEkgaGF2ZSBhIHRh
+						c2sgbGlrZSB0aGlzICJmYW5jeS11
+						aS1cJ2I3LWlzc3VlLSMyMS1cJ2I3
+						LXNraWJpdHNreS9jb29sLXByb2pl
+						Y3RcJzk0IC0gbGVhdmUgb25seSAi
+						ZmFuY3ktdWkiIC0gcmVtb3ZlIGV2
+						ZXJ5dGhpbmcgYWZ0ZXIgdGhlIGZp
+						cnN0IC1cJ2I3LX0BAAAAIwAAAAEA
+						AAAHAAAAVFhULnJ0ZhAAAAAm+Fxd
+						tgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
 						<string></string>
-						<key>Source</key>
-						<string>Nothing</string>
-						<key>Text</key>
-						<string>cat $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows/Documents/Current\ Task/ct.txt</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>TrimResults</key>
-						<true/>
-						<key>TrimResultsNew</key>
-						<true/>
-						<key>UseText</key>
-						<true/>
 					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>584792762.61061096</real>
-				<key>ModificationDate</key>
-				<real>584891339.48830104</real>
-				<key>Name</key>
-				<string>As plain text</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>35</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>7C644CC3-7571-46D8-B0D5-24DD045B3C2F</string>
-			</dict>
-		</array>
-		<key>Modifiers</key>
-		<integer>6912</integer>
-		<key>Name</key>
-		<string>w: Current Task</string>
-		<key>PaletteUnderMouse</key>
-		<false/>
-		<key>Theme</key>
-		<dict>
-			<key>Opacity</key>
-			<integer>100</integer>
-			<key>Size</key>
-			<integer>21</integer>
-			<key>UseDefaultInstead</key>
-			<false/>
-			<key>UseIcon</key>
-			<false/>
-			<key>UseTrigger</key>
-			<true/>
-		</dict>
-		<key>ToggleMacroUID</key>
-		<string>6C52A350-131B-4664-85B9-99F55DAE251B</string>
-		<key>UID</key>
-		<string>484FB4D3-B019-490F-85B1-A0566F64CDDA</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>OnceWithPalette</string>
-		<key>AddToMacroPalette</key>
-		<false/>
-		<key>AddToStatusMenu</key>
-		<false/>
-		<key>CreationDate</key>
-		<real>584792679.03462696</real>
-		<key>KeyCode</key>
-		<integer>22</integer>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
 					<dict>
 						<key>DisplayKind</key>
 						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
 						<key>IncludeStdErr</key>
 						<false/>
 						<key>MacroActionType</key>
@@ -153,6 +107,32 @@
 						<string>CT</string>
 					</dict>
 					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteSwift</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>import Cocoa
+
+let task = ProcessInfo.processInfo.environment["KMVAR_CT"]!
+NSAppleScript(source: "tell application \"Keyboard Maestro Engine\" to setvariable \"CT\" to \"\(task.components(separatedBy: "-·-")[0])\"")?
+    .executeAndReturnError(nil)</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
 						<key>Action</key>
 						<string>ByPasting</string>
 						<key>MacroActionType</key>
@@ -162,11 +142,137 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
+				<real>588065431.00421202</real>
+				<key>ModificationDate</key>
+				<real>588066789.10199296</real>
+				<key>Name</key>
+				<string>Line-separated GitHub</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C76F5502-944B-4586-BCFF-8B13C2F97241</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>w: Current Task</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Theme</key>
+		<dict>
+			<key>Opacity</key>
+			<integer>100</integer>
+			<key>Size</key>
+			<integer>21</integer>
+			<key>UseDefaultInstead</key>
+			<false/>
+			<key>UseIcon</key>
+			<false/>
+			<key>UseTrigger</key>
+			<true/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>6C52A350-131B-4664-85B9-99F55DAE251B</string>
+		<key>UID</key>
+		<string>484FB4D3-B019-490F-85B1-A0566F64CDDA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>584792679.03462696</real>
+		<key>KeyCode</key>
+		<integer>22</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>cat $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows/Documents/Current\ Task/ct.txt</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>CT</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseString</string>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>-</string>
+						<key>Search</key>
+						<string> </string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>CT</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Lowercase</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>CT</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>%Variable%CT%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
 				<real>584792907.40325797</real>
 				<key>ModificationDate</key>
-				<real>584891334.10326302</real>
+				<real>588066792.48878706</real>
 				<key>Name</key>
-				<string>Line-seperated</string>
+				<string>Line-separated</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -182,6 +288,94 @@
 				</array>
 				<key>UID</key>
 				<string>52C80253-A7E8-4333-A4DC-0C363F683177</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6912</integer>
+		<key>Name</key>
+		<string>w: Current Task</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Theme</key>
+		<dict>
+			<key>Opacity</key>
+			<integer>100</integer>
+			<key>Size</key>
+			<integer>21</integer>
+			<key>UseDefaultInstead</key>
+			<false/>
+			<key>UseIcon</key>
+			<false/>
+			<key>UseTrigger</key>
+			<true/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>6C52A350-131B-4664-85B9-99F55DAE251B</string>
+		<key>UID</key>
+		<string>484FB4D3-B019-490F-85B1-A0566F64CDDA</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>584792679.03462696</real>
+		<key>KeyCode</key>
+		<integer>22</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Typing</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>cat $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows/Documents/Current\ Task/ct.txt</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>584792762.61061096</real>
+				<key>ModificationDate</key>
+				<real>584891339.48830104</real>
+				<key>Name</key>
+				<string>As plain text</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>35</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7C644CC3-7571-46D8-B0D5-24DD045B3C2F</string>
 			</dict>
 		</array>
 		<key>Modifiers</key>
