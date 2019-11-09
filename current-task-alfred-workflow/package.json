@@ -1,0 +1,22 @@
+{
+  "name": "current-task",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skibitsky/current-task.git"
+  },
+  "author": "Gleb Skibitsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skibitsky/current-task/issues"
+  },
+  "homepage": "https://github.com/skibitsky/current-task#readme",
+  "dependencies": {
+    "alfred-timing": "^1.1.1"
+  }
+}
