@@ -5,7 +5,7 @@ The workflow allows to create and close tasks. Creation is possible by  calling 
 It is based on  [alfred-timing](https://github.com/skibitsky/alfred-timing) workflow. It makes possible Timing tasks and projects fetching from the Timing API. However, it may case problems in case of no internet connection.
 
 ## Install
-0. Download and install [workflow](https://github.com/skibitsky/current-task/raw/master/alfred-workflow/current-task-v2.0.alfredworkflow)
+0. Download and install [workflow](https://github.com/skibitsky/current-task/blob/master/current-task-alfred-workflow/current-task-v2.0.alfredworkflow)
 1. `cd` into workflow directory (control-click on the workflow in Alfred and select "Open in Terminal)
 2. Run `npm i`
 3. Generate new Timing API token [here](https://web.timingapp.com/integrations/tokens)

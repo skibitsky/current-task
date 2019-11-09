@@ -11,7 +11,7 @@ that opens a palette with a different Current Task filtering options. I.e. you c
 Below you will find a list of all integrations I've made so far. I will be adding more integrations over time.
 
 ## Alfred Workflow
- [Download workflow](https://github.com/skibitsky/current-task/raw/master/alfred-workflow/current-task-v2.0.alfredworkflow)
+[Workflow Installation Instructions](https://github.com/skibitsky/current-task/tree/master/current-task-alfred-workflow#install)
  
 The workflow allows to create and close tasks. Creation is possible by  calling workflow directly (I use Karabiner Elements and Goku for that, my config can be found  [here](https://github.com/skibitsky/dotfiles/blob/master/karabiner/karabiner.edn)) or by selecting the text anywhere (i.e. inside task tracking app or GitHub issue) and using hotkey. 
 
