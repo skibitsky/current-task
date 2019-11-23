@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64CA4B7F-5EA6-4719-A2E1-755F266D28C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1303688C-7BBB-48B2-92BA-B4931308B5B2</key>
 		<array>
 			<dict>
@@ -89,16 +102,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>BA474BB9-1254-4869-BE8C-0030A7D66528</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -126,6 +129,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B6FC2A10-CF09-42B1-A287-284CDBDF586D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>86BF2EF3-3B63-4B03-B939-540CECAD87EB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -185,6 +201,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>86BF2EF3-3B63-4B03-B939-540CECAD87EB</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Enable Focus?</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
@@ -220,30 +246,6 @@ end tell</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>64CA4B7F-5EA6-4719-A2E1-755F266D28C8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>time=25
-open focus://focus?minutes=$time</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -434,6 +436,29 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open focus://focus</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -477,6 +502,24 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 			<string>D31A5B49-15C9-49BC-9936-800234E79E8E</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>project</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>86BF2EF3-3B63-4B03-B939-540CECAD87EB</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -598,11 +641,11 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 		<key>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</key>
 		<dict>
 			<key>note</key>
-			<string>Enable Focus for 25 minutes</string>
+			<string>Enable Focus</string>
 			<key>xpos</key>
-			<integer>1315</integer>
+			<integer>1075</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>295</integer>
 		</dict>
 		<key>1303688C-7BBB-48B2-92BA-B4931308B5B2</key>
 		<dict>
@@ -652,7 +695,7 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>note</key>
 			<string>Start a new task in Timing</string>
 			<key>xpos</key>
-			<integer>1055</integer>
+			<integer>1315</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -670,10 +713,17 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>ypos</key>
 			<integer>295</integer>
 		</dict>
+		<key>86BF2EF3-3B63-4B03-B939-540CECAD87EB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>965</integer>
+			<key>ypos</key>
+			<integer>325</integer>
+		</dict>
 		<key>B4B93081-E8E1-44C8-95C9-B403B59440A2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>925</integer>
+			<integer>965</integer>
 			<key>ypos</key>
 			<integer>165</integer>
 		</dict>
@@ -691,9 +741,9 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>note</key>
 			<string>Write Current Task into iCloud file</string>
 			<key>xpos</key>
-			<integer>1315</integer>
+			<integer>1525</integer>
 			<key>ypos</key>
-			<integer>165</integer>
+			<integer>10</integer>
 		</dict>
 		<key>BE8FE719-9B7D-45CA-A893-1CC41046ADA0</key>
 		<dict>
@@ -722,7 +772,7 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 		<string>token</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/skibitsky/current-task</string>
 </dict>
