@@ -22,18 +22,7 @@
 			</dict>
 		</array>
 		<key>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>64CA4B7F-5EA6-4719-A2E1-755F266D28C8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>1303688C-7BBB-48B2-92BA-B4931308B5B2</key>
 		<array>
 			<dict>
@@ -55,6 +44,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1F339BD5-73CB-4879-A125-E19F34CBCB45</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>213DBDB4-C54E-4BC3-9EB8-EB211282F280</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -137,19 +141,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>86BF2EF3-3B63-4B03-B939-540CECAD87EB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B4B93081-E8E1-44C8-95C9-B403B59440A2</key>
 		<array>
 			<dict>
@@ -168,6 +159,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>75CAD226-E5D0-43C2-BA9B-76EDD1B023D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D60452B6-068F-4DAC-AF11-1695A7FFE408</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Enable Focus</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BA474BB9-1254-4869-BE8C-0030A7D66528</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1F339BD5-73CB-4879-A125-E19F34CBCB45</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -203,11 +217,37 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>86BF2EF3-3B63-4B03-B939-540CECAD87EB</string>
+				<string>E7BB0200-58DA-4D08-8BF9-BEE5E6F2E229</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Enable Focus?</string>
+				<string>Enable Focus</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D60452B6-068F-4DAC-AF11-1695A7FFE408</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1303688C-7BBB-48B2-92BA-B4931308B5B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E7BB0200-58DA-4D08-8BF9-BEE5E6F2E229</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64CA4B7F-5EA6-4719-A2E1-755F266D28C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -223,6 +263,29 @@
 	<string>Current Task</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open focus://focus</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -277,18 +340,30 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focus}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>true</string>
+						<key>outputlabel</key>
+						<string>Enable Focus</string>
+						<key>uid</key>
+						<string>213DBDB4-C54E-4BC3-9EB8-EB211282F280</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
 				<string></string>
-				<key>variables</key>
-				<dict>
-					<key>project</key>
-					<string>{query}</string>
-				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>B4B93081-E8E1-44C8-95C9-B403B59440A2</string>
+			<string>1F339BD5-73CB-4879-A125-E19F34CBCB45</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -391,6 +466,8 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 				<string></string>
 				<key>variables</key>
 				<dict>
+					<key>focus</key>
+					<string>false</string>
 					<key>task</key>
 					<string>{query}</string>
 				</dict>
@@ -399,6 +476,26 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>75CAD226-E5D0-43C2-BA9B-76EDD1B023D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>focus</key>
+					<string>false</string>
+					<key>project</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B4B93081-E8E1-44C8-95C9-B403B59440A2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -430,29 +527,6 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>765CE83F-167D-47AD-9BD6-CEA570481C8A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open focus://focus</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>125CF09E-2F5B-4FB4-BB82-A9B08AFC3B06</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -510,6 +584,28 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 				<string></string>
 				<key>variables</key>
 				<dict>
+					<key>focus</key>
+					<string>true</string>
+					<key>task</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D60452B6-068F-4DAC-AF11-1695A7FFE408</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>focus</key>
+					<string>true</string>
 					<key>project</key>
 					<string>{query}</string>
 				</dict>
@@ -517,7 +613,7 @@ echo $query &gt; $HOME/Library/Mobile\ Documents/iCloud~is~workflow~my~workflows
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>86BF2EF3-3B63-4B03-B939-540CECAD87EB</string>
+			<string>E7BB0200-58DA-4D08-8BF9-BEE5E6F2E229</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -643,9 +739,9 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>note</key>
 			<string>Enable Focus</string>
 			<key>xpos</key>
-			<integer>1075</integer>
+			<integer>1685</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>70</integer>
 		</dict>
 		<key>1303688C-7BBB-48B2-92BA-B4931308B5B2</key>
 		<dict>
@@ -655,6 +751,15 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<integer>550</integer>
 			<key>ypos</key>
 			<integer>185</integer>
+		</dict>
+		<key>1F339BD5-73CB-4879-A125-E19F34CBCB45</key>
+		<dict>
+			<key>note</key>
+			<string>If "focus" == True</string>
+			<key>xpos</key>
+			<integer>1505</integer>
+			<key>ypos</key>
+			<integer>125</integer>
 		</dict>
 		<key>24921786-F159-4ABA-B8F0-278DDE7B6CB9</key>
 		<dict>
@@ -695,9 +800,9 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>note</key>
 			<string>Start a new task in Timing</string>
 			<key>xpos</key>
-			<integer>1315</integer>
+			<integer>1085</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>105</integer>
 		</dict>
 		<key>75CAD226-E5D0-43C2-BA9B-76EDD1B023D6</key>
 		<dict>
@@ -713,19 +818,12 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>ypos</key>
 			<integer>295</integer>
 		</dict>
-		<key>86BF2EF3-3B63-4B03-B939-540CECAD87EB</key>
-		<dict>
-			<key>xpos</key>
-			<integer>965</integer>
-			<key>ypos</key>
-			<integer>325</integer>
-		</dict>
 		<key>B4B93081-E8E1-44C8-95C9-B403B59440A2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>965</integer>
+			<integer>925</integer>
 			<key>ypos</key>
-			<integer>165</integer>
+			<integer>255</integer>
 		</dict>
 		<key>B6FC2A10-CF09-42B1-A287-284CDBDF586D</key>
 		<dict>
@@ -741,9 +839,9 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>note</key>
 			<string>Write Current Task into iCloud file</string>
 			<key>xpos</key>
-			<integer>1525</integer>
+			<integer>1295</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>105</integer>
 		</dict>
 		<key>BE8FE719-9B7D-45CA-A893-1CC41046ADA0</key>
 		<dict>
@@ -761,6 +859,24 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 			<key>ypos</key>
 			<integer>295</integer>
 		</dict>
+		<key>D60452B6-068F-4DAC-AF11-1695A7FFE408</key>
+		<dict>
+			<key>note</key>
+			<string>Enable Focus</string>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>E7BB0200-58DA-4D08-8BF9-BEE5E6F2E229</key>
+		<dict>
+			<key>note</key>
+			<string>Enable Focus</string>
+			<key>xpos</key>
+			<integer>925</integer>
+			<key>ypos</key>
+			<integer>355</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
@@ -772,7 +888,7 @@ It is based on alfred-timing (https://github.com/skibitsky/alfred-timing) workfl
 		<string>token</string>
 	</array>
 	<key>version</key>
-	<string>2.1.0</string>
+	<string>2.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/skibitsky/current-task</string>
 </dict>
