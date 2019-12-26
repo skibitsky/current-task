@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/skibitsky/current-task#readme",
   "dependencies": {
-    "alfred-timing": "^1.1.1"
+    "alfred-timing": "^1.1.2"
   }
 }
